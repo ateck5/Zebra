@@ -1,0 +1,2 @@
+<!-- Making sure the file is not empty; this might cause a problem on some servers. Replace this text with your own code for augmentation, but make sure it is never empty -->
+<% Session("BuildMenu") = "0"%>

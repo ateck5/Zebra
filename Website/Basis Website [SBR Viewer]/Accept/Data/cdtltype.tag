@@ -1,0 +1,3 @@
+CdtlTypeId
+CartDetailId
+TypeValId

@@ -1,0 +1,898 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #4f535f;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* IE7 */
+
+@media (min-width: 992px) {
+    .col-sm-4 {
+        *width: 30%; /* IE7 */
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        *width: 41%; /* IE7 */
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        *width: 30%; /* IE7 */
+    }
+}
+
+/* OPMAAK */
+
+.cursor-pointer {
+    cursor:pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+    h1 small {
+        color: rgb(255, 255, 255); /* IE8 */
+        color: rgba(255, 255, 255, 0.75);
+        *color: rgb(255, 255, 255); /* IE7 */
+    }
+
+h2 {
+    color: #333332;
+}
+
+a {
+    color: #666665;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333332;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: left;
+    }
+}
+
+a {
+    border-bottom: 1px dotted #666665;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        color: #41dd85 !important;
+        border-bottom: 1px dotted #41dd85;
+    }
+
+@media(max-width:767px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+
+.button {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #41dd85;
+    background: none;
+    border: 2px solid #41dd85;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 54px;
+    line-height: 54px;
+    transition: all 200ms ease-in-out 0s;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+    .button:hover {
+        color: #fff !important;
+        border: 2px solid #41dd85;
+        background: #41dd85;
+    }
+
+.lang-button {
+    cursor: pointer;
+    color: transparent;
+    background: none;
+    border: none;
+    z-index: 1050;
+}
+
+    .lang-button:hover {
+    }
+
+.button-full-small {
+    width: 50px;
+    text-align: center !important;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #41dd85 !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 30px;
+    line-height: 20px;
+    transition: all 200ms ease-in-out 0s;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+    .button-full-small:hover {
+        color: #ffffff !important;
+        background: #2d9c5d !important;
+    }
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #28c3ab;
+    color: #28c3ab;
+    background-color: transparent;
+}
+
+    .btn-default:hover,
+    .btn-default:focus {
+        border: 1px solid #28c3ab;
+        outline: 0;
+        color: #000;
+        background-color: #28c3ab;
+    }
+
+.btn-huge {
+    padding: 25px;
+    font-size: 26px;
+}
+
+.btn-fit {
+    width: 100%;
+    font-size: 2em;
+}
+
+#footer {
+    height: 0px;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-section {
+    background-color: #fff;
+}
+
+    .footer-section p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 11px;
+        color: #a1a1a1;
+    }
+
+/* Pagina - INTRO */
+
+.intro {
+    width: 100%;
+    padding: 100px 0 10px 0;
+    text-align: center;
+    color: rgb(255,255,255); /* IE8 */
+    color: rgba(255,255,255,0.7);
+    *color: rgb(255,255,255); /* IE7 */
+    background: url(../img/header-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.intro-top {
+    position: absolute;
+    top: 10em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.intro-bottom {
+    position: absolute;
+    bottom: 5em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.brand-heading {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.intro-text {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+@media(max-width:767px) {
+
+    .intro {
+        min-height: 500px !important;
+    }
+
+    .intro-wrapper {
+        position: absolute;
+        min-height: 550px;
+        left: 0;
+        top: 0;
+        bottom: 450px;
+    }
+
+    .intro-top {
+        top: 5em;
+    }
+
+    .intro-bottom {
+        bottom: 6em;
+    }
+
+    .brand-heading {
+        font-size: 36px !important;
+        font-weight: 600;
+        letter-spacing: -0.05em;
+        color: #fff;
+    }
+
+    .intro-text {
+        font-size: 16px !important;
+        line-height: 30px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
+
+/* Pagina - ABOUT */
+
+.about {
+    *background-color: #F2F3F5; /* IE7 */
+}
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .about .section-container img {
+        margin-top: 20px;
+    }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .about .section-container img {
+        margin-top: 20px;
+    }
+}
+
+/* Pagina - IMPRESSIE */
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .impressie .divider-grey {
+        -webkit-transition: padding-bottom 1s ease-in-out;
+        -moz-transition: padding-bottom 1s ease-in-out;
+        transition: padding-bottom 1s ease-in-out;
+    }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .impressie .divider-grey {
+        -webkit-transition: padding-bottom 1s ease-in-out;
+        -moz-transition: padding-bottom 1s ease-in-out;
+        transition: padding-bottom 1s ease-in-out;
+    }
+}
+
+
+.impressie .carousel {
+    background: url(../img/Scherm.jpg) no-repeat center center scroll;
+    background-color: #fff;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    margin: 22px 200px 0 200px;
+    padding: 35px 25px 22px 25px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+    .impressie .carousel a {
+        border-bottom-width: 0;
+    }
+
+        .impressie .carousel a:hover,
+        .impressie .carousel a:focus {
+            border-bottom-width: 0;
+        }
+
+
+    .impressie .carousel img {
+        width: 100%;
+        margin-bottom: 200px;
+        -webkit-transition: margin-bottom 1s ease-in-out;
+        -moz-transition: margin-bottom 1s ease-in-out;
+        transition: margin-bottom 1s ease-in-out;
+    }
+
+    .impressie .carousel .carousel-indicators {
+        bottom: 165px;
+        *margin-left: 100px; /* IE7 */
+        -webkit-transition: bottom 1s ease-in-out;
+        -moz-transition: bottom 1s ease-in-out;
+        transition: bottom 1s ease-in-out;
+    }
+
+        .impressie .carousel .carousel-indicators LI {
+            *display: inline; /* IE7 */
+        }
+
+
+    .impressie .carousel .carousel-control {
+        margin: 20px;
+        margin-bottom: 235px;
+        -webkit-transition: margin-bottom 1s ease-in-out;
+        -moz-transition: margin-bottom 1s ease-in-out;
+        transition: margin-bottom 1s ease-in-out;
+        background: none;
+        *filter: none; /* IE7 */
+    }
+
+        .impressie .carousel .carousel-control span {
+            color: #41dd85;
+        }
+
+        .impressie .carousel .carousel-control.left {
+            left: -100px;
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+        .impressie .carousel .carousel-control.right {
+            right: -100px;
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+    .impressie .carousel .carousel-caption {
+        bottom: -100px;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        left: 5%;
+        right: 5%;
+        color: #076d33;
+        padding: 0;
+        height: 50px;
+        *position: relative !important; /* IE7 */
+        *bottom: 60px !important; /* IE7 */
+        *left: 0 !important; /* IE7 */
+        *margin-bottom: -60px !important; /* IE7 */
+    }
+
+        .impressie .carousel .carousel-caption.slide {
+            display: none;
+        }
+
+    .impressie .carousel .carousel-title {
+        display: none;
+    }
+
+    /* hover*/
+
+    .impressie .carousel:hover {
+        margin: -40px -10px 0 -10px;
+        padding: 35px 30px 22px 30px;
+    }
+
+        .impressie .carousel:hover img {
+            margin-bottom: 320px;
+        }
+
+        .impressie .carousel:hover .carousel-indicators {
+            bottom: 275px;
+        }
+
+        .impressie .carousel:hover .carousel-control {
+            margin-bottom: 330px;
+        }
+
+            .impressie .carousel:hover .carousel-control.left {
+                left: -105px;
+            }
+
+            .impressie .carousel:hover .carousel-control.right {
+                right: -105px;
+            }
+
+        .impressie .carousel:hover .carousel-caption {
+            bottom: -120px;
+        }
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .impressie .carousel:hover {
+        margin-top: 0px;
+    }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .impressie .carousel:hover {
+        margin-top: 0px;
+    }
+}
+
+
+@media(max-width:1200px) {
+    .impressie .carousel {
+        margin: 22px 100px 0px 100px;
+    }
+
+
+        .impressie .carousel img {
+            margin-bottom: 200px;
+        }
+
+        .impressie .carousel .carousel-indicators {
+            bottom: 175px;
+        }
+
+        .impressie .carousel .carousel-control {
+            margin-bottom: 225px;
+        }
+
+            .impressie .carousel .carousel-control.left {
+                left: -90px;
+            }
+
+            .impressie .carousel .carousel-control.right {
+                right: -90px;
+            }
+
+        .impressie .carousel .carousel-caption {
+            margin-bottom: 10px;
+        }
+
+    /* hover*/
+
+    .impressie .carousel {
+    }
+
+        .impressie .carousel:hover img {
+            margin-bottom: 260px;
+        }
+
+        .impressie .carousel:hover .carousel-indicators {
+            bottom: 225px;
+        }
+
+        .impressie .carousel:hover .carousel-control {
+            margin-bottom: 275px;
+        }
+
+            .impressie .carousel:hover .carousel-control.left {
+                left: -95px;
+            }
+
+            .impressie .carousel:hover .carousel-control.right {
+                right: -95px;
+            }
+
+        .impressie .carousel:hover .carousel-caption {
+            margin-bottom: 20px;
+        }
+}
+
+@media(max-width:992px) {
+    .impressie .carousel {
+        margin: 22px 25px 0px 25px;
+    }
+
+        .impressie .carousel img {
+            margin-bottom: 180px;
+        }
+
+        .impressie .carousel .carousel-indicators {
+            bottom: 155px;
+        }
+
+        .impressie .carousel .carousel-control {
+            margin-bottom: 195px;
+        }
+
+        /* hover*/
+
+        .impressie .carousel:hover {
+        }
+
+            .impressie .carousel:hover img {
+                margin-bottom: 200px;
+            }
+
+            .impressie .carousel:hover .carousel-indicators {
+                bottom: 170px;
+            }
+
+            .impressie .carousel:hover .carousel-control {
+                margin-bottom: 215px;
+            }
+
+                .impressie .carousel:hover .carousel-control.left {
+                    left: -75px;
+                }
+
+                .impressie .carousel:hover .carousel-control.right {
+                    right: -75px;
+                }
+
+
+            .impressie .carousel:hover .carousel-caption {
+                bottom: -110px;
+            }
+}
+
+
+@media(max-width:767px) {
+
+    .impressie {
+        min-height: 500px !important;
+    }
+
+        .impressie .section-container {
+            height: auto;
+        }
+
+        .impressie .carousel {
+            background: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 150px;
+            -webkit-transition: none;
+            -moz-transition: none;
+            transition: none;
+        }
+
+            .impressie .carousel img {
+                width: 100%;
+                margin-bottom: 0px;
+                -webkit-transition: none;
+                -moz-transition: none;
+                transition: none;
+            }
+
+            .impressie .carousel .carousel-indicators {
+                bottom: 0px;
+                *bottom: 110px; /* IE7 */
+                margin-bottom: -50px;
+                -webkit-transition: none;
+                -moz-transition: none;
+                transition: none;
+                background-color: rgb(40, 195, 171); /* IE8 */
+                background-color: rgba(40, 195, 171, 0.75);
+                *background-color: transparent; /* IE7 */
+                border-radius: 10px;
+            }
+
+            .impressie .carousel .carousel-control {
+                margin: 0px;
+                margin-bottom: -320px;
+                -webkit-transition: none;
+                -moz-transition: none;
+                transition: none;
+            }
+
+                .impressie .carousel .carousel-control.left {
+                    left: 0px;
+                }
+
+                .impressie .carousel .carousel-control.right {
+                    right: 0px;
+                }
+
+
+            .impressie .carousel .carousel-caption {
+                position: relative;
+                bottom: 0px;
+                margin-bottom: 0px !important;
+                left: 0;
+                *bottom: 0px !important; /* IE7 */
+                *margin-top: 50px; /* IE7 */
+            }
+
+                .impressie .carousel .carousel-caption.slide {
+                    display: block;
+                }
+
+            /* hover*/
+
+            .impressie .carousel:hover {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 150px;
+            }
+
+                .impressie .carousel:hover img {
+                    margin-bottom: 0px;
+                }
+
+
+                .impressie .carousel:hover .carousel-indicators {
+                    bottom: 0px;
+                    margin-bottom: -50px;
+                    *bottom: 110px; /* IE7 */
+                }
+
+                .impressie .carousel:hover .carousel-control {
+                    margin: 0px;
+                    margin-bottom: -320px;
+                }
+
+                    .impressie .carousel:hover .carousel-control.left {
+                        left: 0px;
+                    }
+
+                    .impressie .carousel:hover .carousel-control.right {
+                        right: 0px;
+                    }
+
+
+                .impressie .carousel:hover .carousel-caption {
+                    bottom: 0px;
+                }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .impressie .carousel .carousel-caption {
+        height: 100px;
+    }
+}
+
+
+/* Pagina - SOFTWARE */
+
+.software {
+    *background-color: #F2F3F5; /* IE7 */
+}
+
+    .software .section-container a {
+        border-bottom-width: 0;
+    }
+
+
+    .software .section-container p {
+        text-align: center;
+    }
+
+    .software .software-container {
+        *width: 100%; /* IE7 */
+    }
+
+
+
+
+/* Pagina - DOWNLOAD */
+
+.download .description-download {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .download .description-download ul {
+        margin: 0;
+        padding: 0;
+    }
+
+/* Pagina - CONTACT */
+
+
+.contact {
+    background: url(../img/contact-bg.jpg) no-repeat center center scroll;
+    *background: none; /* IE7 */
+    color: rgb(255,255,255); /* IE8 */
+    color: rgba(255,255,255,0.7);
+    background-color: #000;
+    *background-color: #F2F3F5; /* IE7 */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+    .contact h3 {
+        text-align: left;
+        color: #ffffff;
+        *color: #000000; /* IE7 */
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0px;
+        font-size: 30px;
+    }
+
+    .contact p {
+        text-align: left;
+        color: rgb(255, 255, 255); /* IE8 */
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 !important;
+    }
+
+    .contact a {
+        color: #cccccc;
+    }
+
+    .contact i {
+        *display: none; /* IE7 - wordt niet getoond, ook niet met font-awesome-ie7.min.css */
+        font-size: 21px;
+        color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        -webkit-transition: .1s all linear;
+        -moz-transition: .1s all linear;
+        -o-transition: .1s all linear;
+        transition: .1s all linear;
+    }
+
+        .contact i:hover {
+            color: #41dd85;
+        }
+
+
+    .contact .button {
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .contact .social {
+        border: none !important;
+    }
+
+.contact-left {
+    padding-right: 20px;
+}
+
+.contact-right {
+    border-left: 1px solid #DEF1E5;
+    padding-left: 120px;
+}
+
+
+@media(max-width:992px) {
+    .contact-left {
+        padding-right: 0px !important;
+        width: 50% !important;
+        *width: 45% !important; /* IE7 */
+    }
+
+    .contact-right {
+        padding-left: 30px !important;
+        width: 50% !important;
+        *width: 45% !important; /* IE7 */
+    }
+}
+
+@media(max-width:767px) {
+    .contact-left {
+        padding-right: 0px !important;
+        margin-top: 70px !important;
+        width: 100% !important;
+    }
+
+    .contact-right {
+        border-left: none !important;
+        padding-left: 20px !important;
+        margin-top: 70px !important;
+        width: 100% !important;
+    }
+}
+
+
+/* Pagina - CONTACT-FORM */
+
+.form-group {
+    position: relative;
+}
+
+    .form-group input {
+        height: 5em;
+    }
+
+    .form-group .required {
+        position: absolute;
+        left: -15px;
+        color: rgba(255, 0, 0, 0.75);
+        top: 50px;
+    }
+
+    .form-group textarea + .required {
+        top: 30px;
+    }
+
+    .form-group textarea {
+        min-height: 15em;
+    }
+
+@media(max-width:500px) {
+    .form-group textarea {
+        min-height: 10em;
+    }
+}

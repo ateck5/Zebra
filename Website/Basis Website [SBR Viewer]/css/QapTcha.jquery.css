@@ -1,0 +1,71 @@
+/*****************/
+/** QapTcha CSS **/
+/*****************/
+.QapTcha {
+    /*float: left;*/
+    position: relative;
+    margin: 20px auto 50px auto;
+    width: 252px;
+    *text-align: left;  /* IE7 */
+}
+
+    .QapTcha .clr {
+        clear: both;
+    }
+
+    .QapTcha .bgSlider {
+        width: 252px;
+        height: 39px;
+        float: left;
+        border: 1px solid #41dd85;
+        background-color: transparent;
+    }
+
+    .QapTcha .Slider {
+        width: 52px;
+        height: 37px;
+        background: transparent url('../img/bg_draggable_qaptcha.jpg') no-repeat;
+        cursor: e-resize;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .QapTcha .TxtShow {
+        position: absolute;
+        left: 80px;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        color: #41dd85;
+    }
+
+    .QapTcha .TxtHelp {
+        position: absolute;
+        margin-top: 50px;
+        font-size: 11px;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .QapTcha .TxtStatus {
+        width: 252px;
+        margin-top: 7px;
+        text-align: left;
+        color: #bb2828;
+        font-family: Verdana;
+        font-size: 10px;
+        clear: both;
+    }
+
+    .QapTcha .dropSuccess {
+        display: none;
+        color: #4e8b37;
+    }
+
+    .QapTcha .dropError {
+        display: none;
+        color: #bb2828;
+    }

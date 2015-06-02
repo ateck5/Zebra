@@ -1,0 +1,183 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    resize: both;
+}
+
+
+.section {
+    min-height: 100vh; /* min-height page == screen-height */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media(max-width:767px) {
+    .section {
+        min-height: 0; /* min-height page == min-height */
+    }
+}
+
+section:nth-child(odd) {
+    background-color: #F2F3F5;
+}
+
+section:nth-child(even) {
+    background-color: #fff;
+}
+
+
+.section-body {
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .section-body {
+        padding-top: 50px;
+    }
+}
+
+
+.section-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-container {
+    padding: 0;
+    margin: 0;
+}
+
+    .section-container .vert-center {
+        padding: 10% 0; /*http://www.vanseodesign.com/css/vertical-centering/*/
+    }
+
+.divider-grey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 2px solid #b3b3b1;
+    padding-bottom: 40px;
+    z-index: 25;
+}
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .divider-grey {
+        padding-bottom: 0px;
+    }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+    .divider-grey {
+        padding-bottom: 0px;
+    }
+}
+
+/* Language */
+
+.language {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+    .language .btn-toolbar {
+        float: right;
+    }
+
+.navbar .language {
+    z-index: 1050;
+}
+
+}
+
+@media(max-width:767px) {
+    .language {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        z-index: 0;
+    }
+
+        .language .btn-toolbar {
+            float: none;
+        }
+}
+
+:lang(en) {
+    display: none;
+}
+
+:lang(nl) {
+    display: inherit;
+}
+
+/* Extra class om script te onderdrukken, bv carousel */
+.hide-lang {
+    display: none !important;
+}
+
+/* Extra */
+
+
+
+@-webkit-keyframes pulse {
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+::selection {
+    background: rgba(0,0,0,0.1);
+}
+
+::-moz-selection {
+    background: rgba(0,0,0,0.1);
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}

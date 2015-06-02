@@ -1,0 +1,8 @@
+OdtlTypeId
+OrderDetailId
+TypeValId
+TypeAttributeId
+AttributeName
+Value
+ProductNumber
+ProductPrice

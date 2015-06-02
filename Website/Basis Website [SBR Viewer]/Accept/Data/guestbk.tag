@@ -1,0 +1,15 @@
+CommentID
+CommentParentID
+CommentText
+AuthorName
+AuthorEmail
+AuthorURL
+AuthorIP
+CommentDate
+CommentTime
+CommentStatus
+PageID
+PageType
+UpdateUserID
+UpdateDate
+UpdateTime

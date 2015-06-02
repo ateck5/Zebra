@@ -1,0 +1,3 @@
+ProdTypeId
+ProdId
+TypeId

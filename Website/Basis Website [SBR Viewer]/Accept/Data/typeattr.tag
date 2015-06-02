@@ -1,0 +1,4 @@
+TypeAttributeId
+TypeId
+AttributeName
+AttributeType

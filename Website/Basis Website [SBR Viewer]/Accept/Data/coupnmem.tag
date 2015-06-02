@@ -1,0 +1,3 @@
+CoupnMemId
+WshpcpnId
+MemberId

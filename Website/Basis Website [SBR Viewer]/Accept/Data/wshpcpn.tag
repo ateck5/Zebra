@@ -1,0 +1,15 @@
+WshpcpnId
+Name
+CouponType
+CouponValue
+CouponCode
+ReqProduct
+ReqCustomer
+MinPrice
+MaxPrice
+BeginDate
+BeginTime
+EndDate
+EndTime
+Active
+Preference
