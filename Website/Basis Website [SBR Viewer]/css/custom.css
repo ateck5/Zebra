@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -86,7 +87,7 @@ p {
 }
 
 a {
-    border-bottom: 1px dotted #666665;
+/*    border-bottom: 1px dotted #666665;*/ /*botst met nav-menu*/
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
@@ -96,7 +97,7 @@ a {
     a:focus {
         text-decoration: none;
         color: #41dd85 !important;
-        border-bottom: 1px dotted #41dd85;
+/*        border-bottom: 1px dotted #41dd85;*/ /*botst met nav-menu*/
     }
 
 @media(max-width:767px) {
