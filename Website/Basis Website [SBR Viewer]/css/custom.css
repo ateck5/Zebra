@@ -926,3 +926,10 @@ width: 100%;
         min-height: 10em;
     }
 }
+.table {
+    text-align: center;
+}
+
+.table tr, td {
+    border: 1px solid black;
+}
