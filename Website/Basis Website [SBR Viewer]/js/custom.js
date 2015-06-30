@@ -228,18 +228,16 @@ $(function () {
         .on('shown.bs.collapse', function () {
             var $this = $(this);
             var $button = $this.closest('.collapse-group').find('.btn-collapse');
-            $button.find('span:lang(nl)').text('Verberg details');
-            $button.find('span:lang(en)').text('Hide details');
-            $this.closest('.about-section').css({ 'min-height': '800px' })
+            $button.text('Verberg details');
+            $this.closest('.over-section').css({ 'min-height': '800px' })
 
 
         })
         .on('hidden.bs.collapse', function () {
             var $this = $(this);
             var $button = $this.closest('.collapse-group').find('.btn-collapse');
-            $button.find('span:lang(nl)').text('Waarom?');
-            $button.find('span:lang(en)').text('Why?');
-            $this.closest('.about-section').css({ 'min-height': '600px' })
+            $button.text('Lees meer');
+            $this.closest('.over-section').css({ 'min-height': '600px' })
         })
 
     $('.carousel')
