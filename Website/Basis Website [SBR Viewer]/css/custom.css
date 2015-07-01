@@ -904,7 +904,10 @@ width: 100%;
     .content {
         max-width: 95%;
         margin: 0 auto;
-        
+    }
+
+    div.table {
+        min-width: 100%;
     }
 }
 
@@ -945,11 +948,12 @@ width: 100%;
         min-height: 10em;
     }
 }
-.table {
-    text-align: center;
+
+td {
+    text-align: left;
 }
 
-.table tr, td {
-    border: 1px solid black;
+div.table { 
+    max-width: 80%;
+    margin: 0 auto;
 }
-
