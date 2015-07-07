@@ -138,6 +138,13 @@ div.navbar-intern {
 
 @media(min-width:768px) {
 
+    li a.sub {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        text-transform: capitalize;
+    }
+
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
