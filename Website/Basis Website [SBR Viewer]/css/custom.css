@@ -84,6 +84,11 @@ p {
         line-height: 36px;
         text-align: left;
     }
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
 }
 
 a {
@@ -864,7 +869,7 @@ width: 100%;
 }
 
 
-@media(max-widt:992px) {
+@media(max-width:992px) {
     .contact-left {
         padding-right: 0px !important;
         width: 50% !important;
@@ -905,12 +910,18 @@ width: 100%;
         max-width: 95%;
         margin: 0 auto;
     }
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 1199px) {
     .container {
         width: 100%
     }
+
 }
 
 
@@ -948,3 +959,13 @@ width: 100%;
 td {
     text-align: left;
 }
+
+table .info-green {
+    background: rgba(203, 219, 154, 0.5);
+}
+
+iframe {
+    margin: 20px auto;
+}
+
+@-ms-viewport{ width: auto !important; }
