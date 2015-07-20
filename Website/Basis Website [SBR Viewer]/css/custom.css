@@ -972,3 +972,17 @@ iframe {
 .table {
     width: 100%
 }
+
+.aangeslotenverenigingen-container h3 {
+    padding-top: 20px;
+}
+
+.aangeslotenverenigingen-container img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+div.partners img {
+    padding: 0px 5px;
+}
