@@ -25,11 +25,11 @@ html {
 }
 
 section:nth-child(odd) {
-    background-color: #F2F3F5;
+    background-color: #fff;
 }
 
 section:nth-child(even) {
-    background-color: #fff;
+    background-color: #ddd;
 }
 
 
@@ -195,3 +195,15 @@ img::selection {
 img::-moz-selection {
     background: transparent;
 }
+
+
+section.green {
+    background: #3b7f4c;
+}
+
+    section.green .content {
+        background: #339955;
+        overflow: hidden;
+/*        color: #88dd33;*/
+        color: white;
+    }

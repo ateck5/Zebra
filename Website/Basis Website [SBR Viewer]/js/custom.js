@@ -74,37 +74,37 @@ $(function () {
 
 
     //jQuery to collapse the navbar on scroll
-    $(window)
-        .on('touchmove', function () {
-            if (inCarousel === false) {
-                if (iOS_5) {
-                    if (navbarAbsolute) {
-                        $(".navbar").css({ 'position': '', 'top': '' });
-                    }
-                }
-                if ($(window).scrollTop() > 50) {
-                    $(".navbar").addClass("top-nav-collapse");
-                } else {
-                    $(".navbar").removeClass("top-nav-collapse");
-                }
-            }
-        })
-        .on('scroll', function () {
-            if (inCarousel === false) {
-                if ($(window).scrollTop() > 50) {
-                    $(".navbar").addClass("top-nav-collapse");
-                } else {
-                    $(".navbar").removeClass("top-nav-collapse");
-                }
-            }
-        });
+    // $(window)
+    //     .on('touchmove', function () {
+    //         if (inCarousel === false) {
+    //             if (iOS_5) {
+    //                 if (navbarAbsolute) {
+    //                     $(".navbar").css({ 'position': '', 'top': '' });
+    //                 }
+    //             }
+    //             if ($(window).scrollTop() > 50) {
+    //                 $(".navbar").addClass("top-nav-collapse");
+    //             } else {
+    //                 $(".navbar").removeClass("top-nav-collapse");
+    //             }
+    //         }
+    //     })
+    //     .on('scroll', function () {
+    //         if (inCarousel === false) {
+    //             if ($(window).scrollTop() > 50) {
+    //                 $(".navbar").addClass("top-nav-collapse");
+    //             } else {
+    //                 $(".navbar").removeClass("top-nav-collapse");
+    //             }
+    //         }
+    //     });
 
     //  Initialisatie
-    if ($(window).scrollTop() > 50) {
-        $(".navbar").addClass("top-nav-collapse");
-    } else {
-        $(".navbar").removeClass("top-nav-collapse");
-    }
+    // if ($(window).scrollTop() > 50) {
+    //     $(".navbar").addClass("top-nav-collapse");
+    // } else {
+    //     $(".navbar").removeClass("top-nav-collapse");
+    // }
 
     //jQuery to collapse the navbar on scroll -- ook voor Apple...
     if (!Modernizr.cssvhunit) {

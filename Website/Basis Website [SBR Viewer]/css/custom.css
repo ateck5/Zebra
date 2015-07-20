@@ -238,7 +238,7 @@ a {
     color: rgb(255,255,255); /* IE8 */
     color: rgba(255,255,255,0.7);
     *color: rgb(255,255,255); /* IE7 */
-    background: url(../img/header-bg.jpg) no-repeat center center scroll;
+    background: url(../img/intro1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -246,34 +246,29 @@ a {
     -o-background-size: cover;
 }
 
-.intro-rtc {
-width: 100%;
-    padding: 100px 0 10px 0;
-    text-align: center;
-    color: rgb(255,255,255); /* IE8 */
-    color: rgba(255,255,255,0.7);
-    *color: rgb(255,255,255); /* IE7 */
-    background: url(../img/rugby_goal.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+.intro.index {
+    background: url(../img/intro1.jpg) no-repeat;
     background-size: cover;
-    -o-background-size: cover;
 }
 
-.intro-maatwerk {
-    width: 100%;
-    padding: 100px 0 10px 0;
-    text-align: center;
-    color: rgb(255,255,255); /* IE8 */
-    color: rgba(255,255,255,0.7);
-    *color: rgb(255,255,255); /* IE7 */
-    background: url(../img/Kids-rugby.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+.intro.academy {
+    background: url(../img/intro2.jpg) no-repeat center center scroll;
     background-size: cover;
-    -o-background-size: cover;
+}
+
+.intro.rtc {
+    background: url(../img/intro3.jpg) no-repeat center center scroll;
+    background-size: cover;
+}
+
+.intro.breedtesport {
+    background: url(../img/intro4.jpg) no-repeat center center scroll;
+    background-size: cover;
+}
+
+.intro.selecties {
+    background: url(../img/intro5.jpg) no-repeat center center scroll;
+    background-size: cover;
 }
 
 .intro-wrapper {
@@ -969,3 +964,11 @@ iframe {
 }
 
 @-ms-viewport{ width: auto !important; }
+
+.kolom {
+    padding: 10px;
+}
+
+.table {
+    width: 100%
+}
