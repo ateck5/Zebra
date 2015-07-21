@@ -292,3 +292,32 @@ $(function () {
 
 })
 
+function myFunction(number) { 
+    if ($('#' + number).hasClass("active")) {
+        $('#' + number).toggleClass ("active inactive");
+    }
+    else if($('#' + number).hasClass("inactive")) {
+        $(".active").toggleClass('active inactive');
+        $('#' + number).toggleClass ("active inactive");
+    }
+    /*opmaak voor deze functie moet zijn:
+        <div class="row">
+            <table id="[een nummer, bestaande uit puur cijfers]" class="table [active of inactive]">
+                <tr>
+                    <th class="info-green">
+                            <a onclick="myFunction([hetzelfde nummer als bij id])">
+                                <img class="[plusmin]" src="img/[min bij active of plus bij inactive].png" alt="">
+                            </a>
+                            [inhoud van de titelbalk]
+                    </th>
+                </tr>
+                <tr>
+                    <td class="text-center">                    
+                        [inhoud van het bericht zelf]
+                    </td>
+                </tr>
+            </table>
+        </div>
+    */
+
+}

@@ -984,5 +984,38 @@ iframe {
 }
 
 div.partners img {
+    margin: 10px 0px;
     padding: 0px 5px;
 }
+
+blockquote.blockquote-reverse {
+    font-size: 150%;
+    color: #aaaf9e;
+}
+
+
+table a:hover {
+    cursor: pointer;
+}
+
+/*table.active*/
+
+    table.active td {
+        display: block;
+    }
+
+    table.active img.plusmin {
+        content:url("../img/min.png");
+        margin-right: 20px;
+    }
+
+/*table.inactive*/
+
+    table.inactive td {
+        display: none;
+    }
+
+    table.inactive img.plusmin {
+        content:url("../img/plus.png");
+        margin-right: 20px;
+    }
