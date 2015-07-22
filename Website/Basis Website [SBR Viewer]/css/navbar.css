@@ -56,7 +56,6 @@
         outline: 0;
         background: none;
         color: #fff !important;
-/*        border-bottom: 2px solid #41dd85;*/
     }
 
 .top-nav-collapse .nav li a:hover {
@@ -77,21 +76,12 @@ nav.navbar-intern {
     position: fixed;
     top: 90px;
     right: 1%;
- /*   margin-bottom: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
-    z-index: 1000;*/
 }
 
-/*div.navbar-intern {
-    float: right;
-}*/
 
     .navbar-intern ul {
         background: rgba(135, 141, 117, 0.5);
-/*        background: rgba(0, 127, 48, 0.7);
-*/    }
+    }
 
     .navbar-intern li {
         float: none;
@@ -101,7 +91,6 @@ nav.navbar-intern {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-/*    color: #fff;*/
 }
 
     .navbar-toggle:focus,
@@ -161,7 +150,6 @@ nav.navbar-intern {
     .top-nav-collapse {
         background-color: rgb(255, 255, 255); /* IE8 */
         background-color: rgba(135, 141, 117, 0.7);
-/*        background-color: rgba(255, 255, 255, 0.5);*/
         margin-top: 0px;
         color: #333332;
     }

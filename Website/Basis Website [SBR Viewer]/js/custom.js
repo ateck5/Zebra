@@ -42,69 +42,10 @@ $(function () {
     }
     getOS();
 
-    /*
-    $.urlParam = function (name) {
-        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-        if (results == null) {
-            return null;
-        }
-        else {
-            return results[1] || 0;
-        }
-    }
-    */
-
-    /*  dedecteerd nu alleen iPad 
-        http://www.mobile247.eu/online-tools/user-agent-strings/dv/brand52248/iphone
-    */
-    /*
-        iOS_5 - bug
-        1.  navbar-fixed-top werkt niet goed op iOS 5.1.1
-            - indien carousel, zal de navbar aan deze container worden gekoppeld
-            - indien eenmaal touch op menuitem, werkt de menuitems vervolgens niet meer.
-              Alleen een scroll verhelpt het probleem.
-            Oplossing:
-            - optijd de navar van position fixed naar absolute zetten!!
-    */
     //var iOS_5 = navigator.userAgent.match(/iPad/i) != null,
     var iOS_5 = (userOS === 'iOS' && Number(userOSver.charAt(0)) <= 5)
     inCarousel = false,
     navbarAbsolute = false;
-
-
-
-    //jQuery to collapse the navbar on scroll
-    // $(window)
-    //     .on('touchmove', function () {
-    //         if (inCarousel === false) {
-    //             if (iOS_5) {
-    //                 if (navbarAbsolute) {
-    //                     $(".navbar").css({ 'position': '', 'top': '' });
-    //                 }
-    //             }
-    //             if ($(window).scrollTop() > 50) {
-    //                 $(".navbar").addClass("top-nav-collapse");
-    //             } else {
-    //                 $(".navbar").removeClass("top-nav-collapse");
-    //             }
-    //         }
-    //     })
-    //     .on('scroll', function () {
-    //         if (inCarousel === false) {
-    //             if ($(window).scrollTop() > 50) {
-    //                 $(".navbar").addClass("top-nav-collapse");
-    //             } else {
-    //                 $(".navbar").removeClass("top-nav-collapse");
-    //             }
-    //         }
-    //     });
-
-    //  Initialisatie
-    // if ($(window).scrollTop() > 50) {
-    //     $(".navbar").addClass("top-nav-collapse");
-    // } else {
-    //     $(".navbar").removeClass("top-nav-collapse");
-    // }
 
     //jQuery to collapse the navbar on scroll -- ook voor Apple...
     if (!Modernizr.cssvhunit) {
@@ -209,12 +150,6 @@ $(function () {
 
     setlanguage($.cookie('language') || 'nl');
 
-    /*
-    $('.btn').bind("click", function (event) {
-        event.preventDefault();
-        $(this).trigger('blur');
-    });
-    */
 
     $('.btn-collapse')
         .on('click', function (e) {
@@ -306,7 +241,7 @@ function myFunction(number) {
                 <tr>
                     <th class="info-green">
                             <a onclick="myFunction([hetzelfde nummer als bij id])">
-                                <img class="[plusmin]" src="img/[min bij active of plus bij inactive].png" alt="">
+                                <img class="[plusmin]" src="img/icons/[min bij active of plus bij inactive].png" alt="">
                             </a>
                             [inhoud van de titelbalk]
                     </th>

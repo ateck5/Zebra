@@ -1,8 +1,0 @@
-TypeValId
-ProdId
-TypeAttributeId
-Value
-ProductNumber
-ProductPrice
-EXPORTDATE
-EXPORTTIME

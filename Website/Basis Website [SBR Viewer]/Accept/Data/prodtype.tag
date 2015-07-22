@@ -1,3 +1,0 @@
-ProdTypeId
-ProdId
-TypeId

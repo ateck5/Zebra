@@ -1,4 +1,0 @@
-TypeId
-Name
-EXPORTDATE
-EXPORTTIME

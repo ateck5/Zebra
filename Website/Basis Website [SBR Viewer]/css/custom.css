@@ -238,7 +238,7 @@ a {
     color: rgb(255,255,255); /* IE8 */
     color: rgba(255,255,255,0.7);
     *color: rgb(255,255,255); /* IE7 */
-    background: url(../img/intro1.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/intro1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,27 +247,27 @@ a {
 }
 
 .intro.index {
-    background: url(../img/intro1.jpg) no-repeat;
+    background: url(../img/fotos/intro1.jpg) no-repeat;
     background-size: cover;
 }
 
 .intro.academy {
-    background: url(../img/intro2.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/intro2.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
 .intro.rtc {
-    background: url(../img/intro3.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/intro3.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
 .intro.breedtesport {
-    background: url(../img/intro4.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/intro4.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
 .intro.selecties {
-    background: url(../img/intro5.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/intro5.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
@@ -345,416 +345,6 @@ a {
     }
 }
 
-/* Pagina - ABOUT */
-
-.about {
-    *background-color: #F2F3F5; /* IE7 */
-}
-
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .about .section-container img {
-        margin-top: 20px;
-    }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-    .about .section-container img {
-        margin-top: 20px;
-    }
-}
-
-/* Pagina - IMPRESSIE */
-
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .impressie .divider-grey {
-        -webkit-transition: padding-bottom 1s ease-in-out;
-        -moz-transition: padding-bottom 1s ease-in-out;
-        transition: padding-bottom 1s ease-in-out;
-    }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-    .impressie .divider-grey {
-        -webkit-transition: padding-bottom 1s ease-in-out;
-        -moz-transition: padding-bottom 1s ease-in-out;
-        transition: padding-bottom 1s ease-in-out;
-    }
-}
-
-
-.impressie .carousel {
-    background: url(../img/Scherm.jpg) no-repeat center center scroll;
-    background-color: #fff;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    margin: 22px 200px 0 200px;
-    padding: 35px 25px 22px 25px;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-}
-
-    .impressie .carousel a {
-        border-bottom-width: 0;
-    }
-
-        .impressie .carousel a:hover,
-        .impressie .carousel a:focus {
-            border-bottom-width: 0;
-        }
-
-
-    .impressie .carousel img {
-        width: 100%;
-        margin-bottom: 200px;
-        -webkit-transition: margin-bottom 1s ease-in-out;
-        -moz-transition: margin-bottom 1s ease-in-out;
-        transition: margin-bottom 1s ease-in-out;
-    }
-
-    .impressie .carousel .carousel-indicators {
-        bottom: 165px;
-        *margin-left: 100px; /* IE7 */
-        -webkit-transition: bottom 1s ease-in-out;
-        -moz-transition: bottom 1s ease-in-out;
-        transition: bottom 1s ease-in-out;
-    }
-
-        .impressie .carousel .carousel-indicators LI {
-            *display: inline; /* IE7 */
-        }
-
-
-    .impressie .carousel .carousel-control {
-        margin: 20px;
-        margin-bottom: 235px;
-        -webkit-transition: margin-bottom 1s ease-in-out;
-        -moz-transition: margin-bottom 1s ease-in-out;
-        transition: margin-bottom 1s ease-in-out;
-        background: none;
-        *filter: none; /* IE7 */
-    }
-
-        .impressie .carousel .carousel-control span {
-            color: #41dd85;
-        }
-
-        .impressie .carousel .carousel-control.left {
-            left: -100px;
-            -webkit-transition: all 1s ease-in-out;
-            -moz-transition: all 1s ease-in-out;
-            transition: all 1s ease-in-out;
-        }
-
-        .impressie .carousel .carousel-control.right {
-            right: -100px;
-            -webkit-transition: all 1s ease-in-out;
-            -moz-transition: all 1s ease-in-out;
-            transition: all 1s ease-in-out;
-        }
-
-    .impressie .carousel .carousel-caption {
-        bottom: -100px;
-        -webkit-transition: all 1s ease-in-out;
-        -moz-transition: all 1s ease-in-out;
-        transition: all 1s ease-in-out;
-        left: 5%;
-        right: 5%;
-        color: #076d33;
-        padding: 0;
-        height: 50px;
-        *position: relative !important; /* IE7 */
-        *bottom: 60px !important; /* IE7 */
-        *left: 0 !important; /* IE7 */
-        *margin-bottom: -60px !important; /* IE7 */
-    }
-
-        .impressie .carousel .carousel-caption.slide {
-            display: none;
-        }
-
-    .impressie .carousel .carousel-title {
-        display: none;
-    }
-
-    /* hover*/
-
-    .impressie .carousel:hover {
-        margin: -40px -10px 0 -10px;
-        padding: 35px 30px 22px 30px;
-    }
-
-        .impressie .carousel:hover img {
-            margin-bottom: 320px;
-        }
-
-        .impressie .carousel:hover .carousel-indicators {
-            bottom: 275px;
-        }
-
-        .impressie .carousel:hover .carousel-control {
-            margin-bottom: 330px;
-        }
-
-            .impressie .carousel:hover .carousel-control.left {
-                left: -105px;
-            }
-
-            .impressie .carousel:hover .carousel-control.right {
-                right: -105px;
-            }
-
-        .impressie .carousel:hover .carousel-caption {
-            bottom: -120px;
-        }
-
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .impressie .carousel:hover {
-        margin-top: 0px;
-    }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-    .impressie .carousel:hover {
-        margin-top: 0px;
-    }
-}
-
-
-@media(max-width:1200px) {
-    .impressie .carousel {
-        margin: 22px 100px 0px 100px;
-    }
-
-
-        .impressie .carousel img {
-            margin-bottom: 200px;
-        }
-
-        .impressie .carousel .carousel-indicators {
-            bottom: 175px;
-        }
-
-        .impressie .carousel .carousel-control {
-            margin-bottom: 225px;
-        }
-
-            .impressie .carousel .carousel-control.left {
-                left: -90px;
-            }
-
-            .impressie .carousel .carousel-control.right {
-                right: -90px;
-            }
-
-        .impressie .carousel .carousel-caption {
-            margin-bottom: 10px;
-        }
-
-    /* hover*/
-
-    .impressie .carousel {
-    }
-
-        .impressie .carousel:hover img {
-            margin-bottom: 260px;
-        }
-
-        .impressie .carousel:hover .carousel-indicators {
-            bottom: 225px;
-        }
-
-        .impressie .carousel:hover .carousel-control {
-            margin-bottom: 275px;
-        }
-
-            .impressie .carousel:hover .carousel-control.left {
-                left: -95px;
-            }
-
-            .impressie .carousel:hover .carousel-control.right {
-                right: -95px;
-            }
-
-        .impressie .carousel:hover .carousel-caption {
-            margin-bottom: 20px;
-        }
-}
-
-@media(max-width:992px) {
-    .impressie .carousel {
-        margin: 22px 25px 0px 25px;
-    }
-
-        .impressie .carousel img {
-            margin-bottom: 180px;
-        }
-
-        .impressie .carousel .carousel-indicators {
-            bottom: 155px;
-        }
-
-        .impressie .carousel .carousel-control {
-            margin-bottom: 195px;
-        }
-
-        /* hover*/
-
-        .impressie .carousel:hover {
-        }
-
-            .impressie .carousel:hover img {
-                margin-bottom: 200px;
-            }
-
-            .impressie .carousel:hover .carousel-indicators {
-                bottom: 170px;
-            }
-
-            .impressie .carousel:hover .carousel-control {
-                margin-bottom: 215px;
-            }
-
-                .impressie .carousel:hover .carousel-control.left {
-                    left: -75px;
-                }
-
-                .impressie .carousel:hover .carousel-control.right {
-                    right: -75px;
-                }
-
-
-            .impressie .carousel:hover .carousel-caption {
-                bottom: -110px;
-            }
-}
-
-
-@media(max-width:767px) {
-
-    .impressie {
-        min-height: 500px !important;
-    }
-
-        .impressie .section-container {
-            height: auto;
-        }
-
-        .impressie .carousel {
-            background: none;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 150px;
-            -webkit-transition: none;
-            -moz-transition: none;
-            transition: none;
-        }
-
-            .impressie .carousel img {
-                width: 100%;
-                margin-bottom: 0px;
-                -webkit-transition: none;
-                -moz-transition: none;
-                transition: none;
-            }
-
-            .impressie .carousel .carousel-indicators {
-                bottom: 0px;
-                *bottom: 110px; /* IE7 */
-                margin-bottom: -50px;
-                -webkit-transition: none;
-                -moz-transition: none;
-                transition: none;
-                background-color: rgb(40, 195, 171); /* IE8 */
-                background-color: rgba(40, 195, 171, 0.75);
-                *background-color: transparent; /* IE7 */
-                border-radius: 10px;
-            }
-
-            .impressie .carousel .carousel-control {
-                margin: 0px;
-                margin-bottom: -320px;
-                -webkit-transition: none;
-                -moz-transition: none;
-                transition: none;
-            }
-
-                .impressie .carousel .carousel-control.left {
-                    left: 0px;
-                }
-
-                .impressie .carousel .carousel-control.right {
-                    right: 0px;
-                }
-
-
-            .impressie .carousel .carousel-caption {
-                position: relative;
-                bottom: 0px;
-                margin-bottom: 0px !important;
-                left: 0;
-                *bottom: 0px !important; /* IE7 */
-                *margin-top: 50px; /* IE7 */
-            }
-
-                .impressie .carousel .carousel-caption.slide {
-                    display: block;
-                }
-
-            /* hover*/
-
-            .impressie .carousel:hover {
-                margin: 0;
-                padding: 0;
-                margin-bottom: 150px;
-            }
-
-                .impressie .carousel:hover img {
-                    margin-bottom: 0px;
-                }
-
-
-                .impressie .carousel:hover .carousel-indicators {
-                    bottom: 0px;
-                    margin-bottom: -50px;
-                    *bottom: 110px; /* IE7 */
-                }
-
-                .impressie .carousel:hover .carousel-control {
-                    margin: 0px;
-                    margin-bottom: -320px;
-                }
-
-                    .impressie .carousel:hover .carousel-control.left {
-                        left: 0px;
-                    }
-
-                    .impressie .carousel:hover .carousel-control.right {
-                        right: 0px;
-                    }
-
-
-                .impressie .carousel:hover .carousel-caption {
-                    bottom: 0px;
-                }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-    .impressie .carousel .carousel-caption {
-        height: 100px;
-    }
-}
-
-
 /* Pagina - aangeslotenverenigingen */
 
 .aangeslotenverenigingen {
@@ -791,7 +381,7 @@ a {
 
 
 .contact {
-    background: url(../img/contact-bg.jpg) no-repeat center center scroll;
+    background: url(../img/fotos/contact-bg.jpg) no-repeat center center scroll;
     *background: none; /* IE7 */
     color: rgb(255,255,255); /* IE8 */
     color: rgba(255,255,255,0.7);
@@ -1005,7 +595,7 @@ table a:hover {
     }
 
     table.active img.plusmin {
-        content:url("../img/min.png");
+        content:url("../img/icons/min.png");
         margin-right: 20px;
     }
 
@@ -1016,6 +606,6 @@ table a:hover {
     }
 
     table.inactive img.plusmin {
-        content:url("../img/plus.png");
+        content:url("../img/icons/plus.png");
         margin-right: 20px;
     }
